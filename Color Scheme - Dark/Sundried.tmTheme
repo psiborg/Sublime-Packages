@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Sundried</string>
+
+    <key>author</key>
+    <string>https://github.com/frou</string>
+
+    <key>uuid</key>
+    <string>544E923E-09B8-4309-8ED8-B021AA9F6D97</string>
+
+    <key>settings</key>
+    <array>
+        <dict>
+            <key>settings</key>
+            <dict>
+                <!-- General -->
+                <key>background</key>
+                <string>#211e1e</string>
+
+                <key>foreground</key>
+                <string>#dadada</string>
+
+                <key>invisibles</key>
+                <string>#4f4d4d</string>
+
+                <key>caret</key>
+                <string>#ffffff</string>
+
+                <key>lineHighlight</key>
+                <string>#3f3938</string>
+
+                <key>selection</key>
+                <string>#3f3938</string>
+
+                <key>selectionBorder</key>
+                <string>#3f3938</string>
+
+                <key>findHighlight</key>
+                <string>#eed600</string>
+
+                <key>findHighlightForeground</key>
+                <string>#000000</string>
+
+                <key>activeGuide</key>
+                <string>#ad9361</string>
+
+                <!-- Hints of Enclosing Brackets / SGML Tags -->
+                <key>bracketsForeground</key>
+                <string>#ffffff</string>
+
+                <key>bracketsOptions</key>
+                <string>underline</string>
+
+                <key>bracketContentsForeground</key>
+                <string>#ffffff</string>
+
+                <key>bracketContentsOptions</key>
+                <string>stippled_underline</string>
+
+                <key>tagsOptions</key>
+                <string>underline</string>
+            </dict>
+        </dict>
+
+        <!-- Comment Scope -->
+        <dict>
+            <key>scope</key>
+            <string>comment</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#60605a</string>
+            </dict>
+        </dict>
+
+        <!-- Constant Scope -->
+        <dict>
+            <key>scope</key>
+            <string>constant</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#b75b4e</string>
+            </dict>
+        </dict>
+
+        <!-- Entity Scope -->
+        <dict>
+            <key>scope</key>
+            <string>entity</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ae7337</string>
+            </dict>
+        </dict>
+
+        <!-- Invalid Scope -->
+        <dict>
+            <key>scope</key>
+            <string>invalid</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#dadada</string>
+                <key>background</key>
+                <string>#bb0000</string>
+            </dict>
+        </dict>
+
+        <!-- Keyword Scope -->
+        <dict>
+            <key>scope</key>
+            <string>keyword</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6a8856</string>
+            </dict>
+        </dict>
+
+        <!-- Markup Scope -->
+        <dict>
+            <key>scope</key>
+            <string>markup</string>
+            <key>settings</key>
+            <dict>
+                <!-- Same as Storage. -->
+                <!-- Rationale: Markup is "type"-like information. -->
+                <key>foreground</key>
+                <string>#ad9361</string>
+            </dict>
+        </dict>
+
+        <!-- Meta Scope -->
+        <!-- Intentionally unstyled. -->
+        <!-- Rationale: Recommended practice. -->
+
+        <!-- Storage Scope -->
+        <dict>
+            <key>scope</key>
+            <string>storage</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ad9361</string>
+            </dict>
+        </dict>
+
+        <!-- String Scope -->
+        <dict>
+            <key>scope</key>
+            <string>string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#5a70a9</string>
+            </dict>
+        </dict>
+
+        <!-- Support Scope -->
+        <dict>
+            <key>scope</key>
+            <string>support</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#995a64</string>
+            </dict>
+        </dict>
+
+        <!-- Variable Scope -->
+        <!-- Intentionally unstyled. -->
+        <!-- Rationale: Already distinct because other scopes are styled. -->
+    </array>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+{
+	"auto_upgrade_last_run": 1353597517,
+	"installed_packages":
+	[
+		"ApacheConf.tmLanguage",
+		"BracketHighlighter",
+		"DocBlockr",
+		"JsFormat",
+		"JsMinifier",
+		"Package Control",
+		"QuickThemes",
+		"SublimeLinter",
+		"Theme - Nexus",
+		"Theme - Nil",
+		"Theme - Soda",
+		"Translit",
+		"Unicode Character Highlighter"
+	]
+}

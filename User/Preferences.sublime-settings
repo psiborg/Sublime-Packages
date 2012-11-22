@@ -1,0 +1,18 @@
+{
+	"color_scheme": "Packages/Color Scheme - Dark/Monokai-FannonEdition.tmTheme",
+	"draw_white_space": "all",
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		80,
+		132
+	],
+	"scroll_past_end": true,
+	"theme": "Nil.sublime-theme",
+	"trim_trailing_white_space_on_save": true
+}
